@@ -26,9 +26,6 @@ export const Header = styled.div`
     gap: 10px;
   }
 
-  img:hover {
-    filter: drop-shadow(15px 10px 5px rgba(0, 127, 255, 0.5));
-  }
   @media (max-width: 450px) {
     padding: 0;
     gap: 5px;
@@ -36,5 +33,12 @@ export const Header = styled.div`
     div {
       gap: 0px;
     }
+  }
+`
+export const LogoImg = styled.img`
+  height: 50px;
+
+  &:hover {
+    filter: drop-shadow(15px 10px 5px rgba(0, 127, 255, 0.5));
   }
 `

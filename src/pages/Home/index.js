@@ -1,9 +1,10 @@
 import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
 
+import Logo from '../../assets/pokemon.png'
 import { Cards, LoadMoreButton, Search, ThemeButton } from '../../components'
 import { ThemeContext } from '../../hooks'
-import { Header, HomeContainer } from './styles'
+import { Header, HomeContainer, LogoImg } from './styles'
 
 export function Home() {
   const { theme } = useContext(ThemeContext)
@@ -67,7 +68,7 @@ export function Home() {
     <HomeContainer theme={theme}>
       <Header>
         <a href="/">
-          <img height={'50px'} src="pokemon.png" alt="POKEMON" />
+          <LogoImg src={Logo} alt="POKEMON" />
         </a>
         <div>
           <Search pokemonFilter={pokemonFilter} />

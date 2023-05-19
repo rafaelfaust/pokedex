@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-import pokeball from '../../assets/Pokeball.png'
+export const PokeballImg = styled.img`
+  width: 30px;
+`
 
 export const Container = styled.div`
   color: ${props => props.theme.previousPrimary};
@@ -18,8 +20,4 @@ export const Input = styled.input`
   padding-left: 15px;
   height: 35px;
   width: 180px;
-`
-
-export const Pokeball = styled.img`
-  background-image: ${pokeball};
 `

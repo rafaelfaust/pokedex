@@ -34,12 +34,12 @@ body {
   }
   
   *::-webkit-scrollbar-track {
-    background: transparent;
+    background: #181717;
   }
   
   *::-webkit-scrollbar-thumb {
-    background-color: #efa216;
+    background-color: #E6E0E9;
     border-radius: 10px;
-    border: 2px solid #cc1717;
+    border: 2px solid #181717;
   }
 `

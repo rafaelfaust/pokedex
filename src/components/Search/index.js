@@ -1,16 +1,17 @@
 import React, { useContext } from 'react'
-import { FaSearch } from 'react-icons/fa'
+
+import Pokeball from '../../assets/Pokeball.png'
 
 /* eslint-disable react/prop-types */
 import { ThemeContext } from '../../hooks'
-import { Container, Input, Pokeball } from './styles'
+import { Container, Input, PokeballImg } from './styles'
 
 export function Search(props) {
   const { theme } = useContext(ThemeContext)
 
   return (
     <Container theme={theme}>
-      <Pokeball />
+      <PokeballImg src={Pokeball} alt="Pokeball" />
       <Input
         onChange={e => props.pokemonFilter(e.target.value.toLowerCase())}
         type={'Text'}
