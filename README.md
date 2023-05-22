@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Pokédex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto da Pokédex, uma aplicação web desenvolvida em React que utiliza a API do Pokémon para exibir informações sobre diferentes Pokémon. 
 
-## Available Scripts
+## Visão geral
 
-In the project directory, you can run:
+A Pokédex é uma ferramenta que permite aos usuários explorar e descobrir informações sobre diferentes Pokémon, incluindo detalhes como nome, tipo, habilidades, estatísticas e muito mais. A aplicação é alimentada pela API do Pokémon, que fornece acesso a um amplo conjunto de dados relacionados a essas criaturas fascinantes.
 
-### `yarn start`
+Além de exibir informações básicas sobre cada Pokémon, a Pokédex também permite aos usuários pesquisar Pokémon específicos pelo nome.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Aqui estão algumas das principais funcionalidades da Pokédex:
 
-### `yarn test`
+- **Pesquisa por nome ou número**: Os usuários podem pesquisar Pokémon específicos digitando o nome ou número da Pokédex na barra de pesquisa. A aplicação irá exibir os resultados correspondentes com base na consulta.
+- **Filtragem por tipo**: Os usuários podem filtrar os Pokémon por tipo para exibir apenas aqueles que se enquadram em uma determinada categoria. Isso ajuda a encontrar Pokémon com características específicas.
+- **Detalhes do Pokémon**: Ao clicar em um Pokémon na lista, os usuários podem ver informações detalhadas, como nome, número da Pokédex, tipo(s), habilidades, estatísticas de batalha, entre outros.
+- **Imagens dos Pokémon**: A aplicação exibe imagens dos Pokémon para permitir que os usuários os identifiquem visualmente. Cada Pokémon tem sua própria imagem associada.
+- **Responsividade**: A Pokédex é responsiva e pode ser acessada de diferentes dispositivos, como computadores desktop, tablets e smartphones.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Ferramentas utilizadas
 
-### `yarn build`
+A Pokédex foi desenvolvida utilizando as seguintes ferramentas e tecnologias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Uma biblioteca JavaScript para construir interfaces de usuário. O React é amplamente utilizado para criar aplicativos da web modernos e reativos.
+- **API do Pokémon**: A aplicação consome a API oficial do Pokémon para obter os dados e informações dos Pokémon. A API fornece acesso a uma vasta quantidade de informações sobre as criaturas.
+- **HTML e CSS**: Foram utilizados HTML e CSS para a estruturação e estilização da aplicação, garantindo uma aparência atraente e uma experiência de usuário agradável.
+- **JavaScript**: A lógica da aplicação e as interações com a API do Pokémon foram implementadas usando JavaScript.
+- **Git e GitHub**: O controle de versão do projeto é gerenciado pelo Git e hospedado no GitHub, permitindo um fluxo de trabalho colaborativo e o controle de alterações ao longo do tempo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Se você deseja executar a Pokédex localmente, siga estas etapas:
 
-### `yarn eject`
+1. Clone este repositório em sua máquina local usando o seguinte comando Git:
+   ```
+   git clone https://github.com/rafaelfaust/pokedex.git
+   ```
+2. Acesse o diretório do projeto:
+   ```
+   cd pokedex
+   ```
+3. Instale as dependências do projeto usando um gerenciador de pacotes, como o npm ou yarn:
+   ```
+   npm install
+   ```
+   ou
+   ```
+  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ yarn install
+   ```
+4. Após a conclusão da instalação das dependências, inicie a aplicação:
+   ```
+   npm start
+   ```
+   ou
+   ```
+   yarn start
+   ```
+5. Acesse a aplicação em seu navegador web, digitando o seguinte URL:
+   ```
+   http://localhost:3000
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Certifique-se de ter o Node.js e o npm (ou yarn) instalados em seu sistema antes de prosseguir com a instalação.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contribuição
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Se você deseja contribuir para o desenvolvimento da Pokédex, siga estas etapas:
 
-## Learn More
+1. Faça um fork deste repositório para sua própria conta no GitHub.
+2. Clone o repositório forkado em sua máquina local.
+3. Crie uma nova branch para realizar suas modificações:
+   ```
+   git checkout -b minha-nova-feature
+   ```
+4. Faça as alterações necessárias e adicione os arquivos modificados:
+   ```
+   git add .
+   ```
+5. Faça um commit das suas alterações:
+   ```
+   git commit -m "Minha nova feature"
+   ```
+6. Faça o push das alterações para o seu repositório forkado:
+   ```
+   git push origin minha-nova-feature
+   ```
+7. Abra um pull request no repositório original para que suas alterações sejam revisadas e incorporadas ao projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A Pokédex é distribuída sob a licença MIT. Consulte o arquivo [LICENSE](https://github.com/rafaelfaust/pokedex/blob/main/LICENSE) para obter mais informações sobre a licença.
 
-### Code Splitting
+## Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Se você tiver alguma dúvida, sugestão ou comentário sobre a Pokédex, sinta-se à vontade para entrar em contato comigo através do endereço de e-mail [seu-email@example.com](mailto:seu-email@example.com).
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Espero que esta descrição do projeto e o arquivo README forneçam as informações necessárias para entender e utilizar a Pokédex. Se você precisar de alguma ajuda adicional, não hesite em perguntar. Boa sorte com o seu projeto!
