@@ -11,9 +11,9 @@ export const StyledButton = styled.button`
   background: ${props => props.theme.primary};
   color: ${props => props.theme.textColorPrimary};
 
-  height: 30px;
+  height: 35px;
   width: 10%;
-  min-width: 150px;
+  min-width: 250px;
   border-radius: 15px;
   cursor: pointer;
   transition: all ease-out 0.3s;

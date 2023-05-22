@@ -1,8 +1,7 @@
 import React, { useContext } from 'react'
 
-import Pokeball from '../../assets/Pokeball.png'
-
 /* eslint-disable react/prop-types */
+import Pokeball from '../../assets/Pokeball.png'
 import { ThemeContext } from '../../hooks'
 import { Container, Input, PokeballImg } from './styles'
 
@@ -15,7 +14,7 @@ export function Search(props) {
       <Input
         onChange={e => props.pokemonFilter(e.target.value.toLowerCase())}
         type={'Text'}
-        placeholder={'Capture seu pokemon...'}
+        placeholder={'Search...'}
       />
     </Container>
   )

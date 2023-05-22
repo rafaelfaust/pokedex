@@ -1,6 +1,6 @@
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useContext } from 'react'
-import { BsFillSunFill } from 'react-icons/bs'
-import { FaMoon } from 'react-icons/fa'
 
 import { ThemeContext } from '../../hooks'
 import { ButtonContainer, StyledButton } from './styles'
@@ -17,7 +17,11 @@ export function ThemeButton() {
           setTheme(theme === themes.light ? themes.dark : themes.light)
         }}
       >
-        {theme === themes.light ? <FaMoon /> : <BsFillSunFill />}
+        {theme === themes.light ? (
+          <FontAwesomeIcon icon={faSun} />
+        ) : (
+          <FontAwesomeIcon icon={faMoon} />
+        )}
       </StyledButton>
     </ButtonContainer>
   )

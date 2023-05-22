@@ -21,7 +21,7 @@ export function LoadMoreButton(props) {
           handleClick()
         }}
       >
-        Carregar Mais
+        Load more pokémons
       </StyledButton>
     </ButtonContainer>
   )
